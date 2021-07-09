@@ -1,0 +1,48 @@
+@keyframes coloranimate {
+    0%   {background-color: #65c3ba;}
+    25%  {background-color: #58668b;}
+    50%  {background-color: black ;}
+    100% {background-color:  #c68642;}
+  }
+
+body{
+    background-image: url("../IMAGES/photo-1587620962725-abab7fe55159.jpg");
+    background-size: 1370px 750px;
+    background-attachment:fixed;
+}
+h1{
+    font-family: "Bahnschrift";
+    text-align: center;
+    font-size: 92px;
+    padding: 22px;
+    color: white;
+    background-color: black;
+    opacity: 0.83;
+    height: 90px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    animation-name: coloranimate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#members{
+    text-align:left;
+			background-color:black;
+            border-radius: 40px;
+            font-family:"Bahnschrift";
+			font-size : 31px ;
+			width: 60%;
+			padding: 50px;
+			color:white;
+			opacity: 0.83;
+			margin-left: auto;
+			margin-right: auto;
+
+}
+li{
+    padding: 22px;
+}
+
