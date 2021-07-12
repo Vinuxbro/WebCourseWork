@@ -5,7 +5,7 @@
 	<title>Gallery</title>
 	<link rel="stylesheet" type="text/css" href="../CSS/gallery.css">
 	<link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
-	
+	<script src="../JAVA SCRIPT/gallary.js"></script>	
 </head>
 <body>
 	<img id="im" src="../IMAGES/WhatsApp Image 2021-07-07 at 23.04.32.jpeg" width="auto">
@@ -49,11 +49,15 @@
 		<div id="row">
 			<div id="left">
 				<label id="Color">Select Background Colour</label>
-				<select id="BgbColor">
-					<option value="DefaultBgColor">Default Colour</option>
-					<option value="red">Red</option>
-					<option value="green">Green</option>
-					<option value="black">Black</option>
+				<select id="BgbColor" onclick="ChangeBcolor()">
+					<option value="#34495E">Default Colour</option>
+					<option value="#7bc043">Green</option>
+					<option value="#be9b7b">Light Brown</option>
+					<option value="#afafaf">Gray</option>
+					<option value="#ffaaa5">Rose</option>
+					<option value="#f37735">Orange</option>
+					<option value="#8dbdff">Light Blue</option>
+					<option value="#fdfbfb">White</option>
 				</select>
 			</div>
 
