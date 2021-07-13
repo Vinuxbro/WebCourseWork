@@ -28,5 +28,29 @@ function ChangeBcolor(){
 
 function ChangeTxColor(){
     var ColorOption= document.getElementById("FontColor")[document.getElementById("FontColor").selectedIndex].value;
-    
+    if (ColorOption==="#000000"){
+        document.body.style.color="#000000";
+    }
+
+    else if(ColorOption==="#ffffff"){
+        document.body.style.color="#ffffff";
+    }
+    else if(ColorOption==="#ee4035"){
+        document.body.style.color="#ee4035";
+    }
+    else if(ColorOption==="#24de21"){
+        document.body.style.color="#24de21";
+    }
+    else if(ColorOption==="#188cd9"){
+        document.body.style.color="#188cd9";
+    }
+    else if(ColorOption==="#4f372d"){
+        document.body.style.color="#4f372d";
+    }
+    else if(ColorOption==="#2e003e"){
+        document.body.style.color="#2e003e";
+    }
+    else if(ColorOption==="#f37735"){
+        document.body.style.color="#f37735";
+    }
 }
