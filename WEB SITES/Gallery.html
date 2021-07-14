@@ -18,9 +18,9 @@
 			<a href="Gallery.html">Gallery</a>
 			<a href="#About">About</a>
 			<a href="#Sitemap">Sitemap</a>
-			<a href="#Feedback">Feedback</a>
+			<a href="Feedback.html">Feedback</a>
 			<a href="#Locations">Locations</a>
-    </div>
+    </div><br><br><br><br><br>
 	<div id="bgvideoAlign">
 	<div id="videoAlign">
 	<video
@@ -32,7 +32,7 @@
 			<source src="../IMAGES/gallery1.mp4" type="video/mp4">
 	</video>
 
-	<div class="caption">
+	<div id="class" class="caption">
                     <h1 id="videoH1">Beautiful Places in Sri Lanka</h1>
                     <h2 id="videoH2">A Land Like No Other</h2>
      </div>
@@ -40,10 +40,10 @@
 	</div>
 
 	<div class="btn-group">
-	  <button class="button">Changing Colours</button>
-	  <button class="button">Gallery Description</button>
-	  <button class="button">Gallery</button>
-	</div>
+	  <a href="#row3"><button id="row3" class="button">Changing Colours</button></a>
+	  <a href="#GalleryDes"><button class="button">Gallery Description</button></a>
+	  <a href="#gallary"><button class="button">Gallery</button></a>
+	</div><br><br><br>
 
 	<form id="form">
 		<div id="row">
@@ -88,33 +88,52 @@
 		
 		</div>
 		<div class="row1">
-			<div class="column">
-				<img src="../IMAGES/sigiriya.jpg">
+			<div id="gallary" class="column">
+				<img src="../IMAGES/sigiriya.jpg" onmouseover="Display1(this);" onmouseout="remove();">
+				
 			</div>
 			<div class="column">
-				<img src="../IMAGES/Ella.jpg">
+				<img src="../IMAGES/Ella.jpg" onmouseover="Display2(this);" onmouseout="remove();">
+				
 			</div>
 			<div class="column">
-				<img src="../IMAGES/yala.jpg">
+				<img src="../IMAGES/yala.jpg" onmouseover="Display3(this);" onmouseout="remove();">
+				
 			</div>
 			<div class="column">
-				<img src="../IMAGES/kandy.jpg">
-			</div>
-			
-			<div class="column">
-				<img src="../IMAGES/pollonaruwa.jpg">
-			</div>
-			<div class="column">
-				<img src="../IMAGES/udawalawa.jpg">
+				<img src="../IMAGES/kandy.jpg" onmouseover="Display4(this);" onmouseout="remove();">
+				
 			</div>
 			
 			<div class="column">
-				<img src="../IMAGES/hikkaduwa.jpg">
+				<img src="../IMAGES/pollonaruwa.jpg" onmouseover="Display5(this);" onmouseout="remove();">
+				
 			</div>
 			<div class="column">
-				<img src="../IMAGES/Bundala.jpg">
+				<img src="../IMAGES/udawalawa.jpg" onmouseover="Display6(this);" onmouseout="remove();">
+				
+			</div>
+			
+			<div class="column">
+				<img src="../IMAGES/hikkaduwa.jpg" onmouseover="Display7(this);" onmouseout="remove();">
+				
+			</div>
+			<div class="column">
+				<img src="../IMAGES/Bundala.jpg" onmouseover="Display8(this);" onmouseout="remove();">
+				
 			</div>
 		</div>
+
+		<div class="row2">
+			<div class="Images">
+				<span onclick="this.parentElement.style.display='none'" class="close">&times;</span>
+				<img id="ShowImage" style="width: 100%;">
+			</div>
+
+			<div id="Content">
+				<!--View content of suitable image-->
+			</div>
+		<div>	
 	</form>
 </body>
-</html>
+</html> 

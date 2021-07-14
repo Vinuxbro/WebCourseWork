@@ -7,6 +7,16 @@ body {
     padding-bottom: 30px;
 }
 
+h2{
+  text-align: center;
+  color: #ffffff;
+}
+
+#PlaceName{
+  padding:10px;
+  text-align: justify;
+  font-weight: bold;
+}
 #videoAlign{
 height:80vh;
 width:100%;
@@ -124,6 +134,44 @@ justify-content: center;
   height: 200px;
   }
 
+.column img:hover{
+  border-radius: 10px; 
+
+}
+
   .intro{
     font-family: Lucida Calligraphy ;
   }
+
+  .row2{
+    padding: 15px;
+    padding-top: 20px;
+    }
+
+  .Images{
+    position: relative;
+    width: 60%;
+    display: none;
+    float: left;
+      
+  }
+
+  #Content{
+    text-align: justify;
+    float: right;
+    width: 38%;
+  }
+
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .close{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    color: white;
+    right: 15px;
+    font-size: 35px;
+    }

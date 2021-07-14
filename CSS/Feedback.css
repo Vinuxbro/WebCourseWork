@@ -1,0 +1,21 @@
+body{
+   background-color: burlywood;
+}
+
+form{
+    border-style: dashed;
+    border-color: coral;
+    
+}
+legend{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:darkslategrey;
+}
+
+.formStyle{
+    font-size: 20px;
+}
+.selection{
+    font-size: 15px;
+}
