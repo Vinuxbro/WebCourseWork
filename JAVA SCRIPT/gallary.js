@@ -1,7 +1,7 @@
 function ChangeBcolor(){
     var ColorOption= document.getElementById("BgbColor")[document.getElementById("BgbColor").selectedIndex].value;
-    if (ColorOption==="#34495E"){
-        document.body.style.backgroundColor="#34495E";
+    if (ColorOption==="#63ace5"){
+        document.body.style.backgroundColor="#63ace5";
     }
     else if(ColorOption==="#7bc043"){
         document.body.style.backgroundColor="#7bc043";

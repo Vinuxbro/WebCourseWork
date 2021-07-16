@@ -7,12 +7,13 @@
 
     <link rel="stylesheet" href="../CSS/Feedback.css">
     <link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
+    <script src="../JAVA SCRIPT/feedback.js"></script>
     <title>Feedback</title>
 </head>
 <body>
     <img id="im" src="../IMAGES/WhatsApp Image 2021-07-07 at 23.04.32.jpeg" width="auto">
 		
-		<div class="navbar">
+		<div class="navbar" style="z-index: 1;">
 		
 			<a href="mainpage.html">Home</a>
 			<a href="#Buyproduct">Products</a>
@@ -24,36 +25,36 @@
 			<a href="#Locations">Locations</a>
     </div><br><br><br><br><br>
     
-    <form>
-        <fieldset>
-            <legend>Enter the Feedback</legend>
-            <div class= "formStyle">
-                <label for="Name">Name:</label>
-                <input type="text" name="name" size="20" maxlength="15" id="Name">
-                <br>
-                <br>
-                <textarea cols="50" rows="10" placeholder="Tell us about your experience."></textarea>
-                <br>
-                <br>
-                <pr>How would you rate our website</pr>
-                <br>
-                <label for="poor">Poor</label>
-                <input type="radio" name="select" value="" id="radioB">
-                <label for="adequate">Adequate</label>
-                <input type="radio" name="select" value="" id="radioB">
-                <label for="okay">Okay</label>
-                <input type="radio" name="select" value="" id="radioB">
-                <label for="good">Good</label>
-                <input type="radio" name="select" value="" id="radioB">
-                <label for="excellent">Excellent</label>
-                <input type="radio" name="select" value="" id="radioB">
-                <br>
-                <br>
-                <input type="submit" class="selection">
-                <input type="reset"  class="selection">
-            <div>
-            </fieldset>
+    
+    <div class="feedback">
+        <h1>Got a Question?</h1>
+        <div class="Forms">
+            <form action="" method="POST">
+                <label for="urname">Name</label><label class="required">*</label><br>
+                <input type="text" name="urname" id="urname" autofocus><br><br>
 
-    </form>   
+                <label for="mail">E-mail</label><label class="required">*</label><br>
+                <input type="email" name="mail" id="mail" placeholder="email@mail.com"><br><br>
+
+                <label for="subject">Subject</label><label class="required"*></label><br>
+                <select name="subject" id="subject">
+                    <option selected disabled>Select Your Option</option>
+                    <option value="Delivary">Delivary</option>
+                    <option value="Complane">Complane</option>
+                    <option value="Insurance">Insurance</option>
+                </select><br><br>
+
+                <label for="comment">Your Question</label><label class="required">*</label><br>
+                <textarea name="comment" id="comment" cols="100" rows="10" placeholder="Type you question here....."></textarea><br><br>
+
+                <button type="button" name="viewquery" id="query" class="btn">View Query</button>
+
+
+
+
+            </form>
+        </div>
+
+    </div>  
 </body>
 </html>
