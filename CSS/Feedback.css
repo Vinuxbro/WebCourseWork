@@ -47,4 +47,6 @@ body{
     
  }
 
- 
+ .required{
+     color: red;
+ }
