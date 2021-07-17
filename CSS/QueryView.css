@@ -1,0 +1,42 @@
+body{
+    background-color: #63ace5;
+}
+
+.query h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 70px;
+}
+
+.view{
+    text-align:left;
+    background-color:rgb(255, 255, 255);
+   
+    font-family:"Bahnschrift";
+    font-size : 20px ;
+    width: 60%;
+    padding: 50px;
+    color:rgb(10, 2, 2);
+    opacity: 0.83;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.btn{
+    width: 49.6%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    background-color:  #f57c0a;
+    color: antiquewhite;
+}
+
+.result{
+    border-style:dotted;
+    border-bottom: 10px;
+    border-color: #63ace5;
+    margin-left: 60px;
+    display: block;
+}

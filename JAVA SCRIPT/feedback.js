@@ -28,9 +28,10 @@ function FormValidation(form){
     }
     else if(nam== ""){
         alert("You have to fill Name field!!!!!!")
+        done=false
     }
 
-    else if(mail== ""){
+    else if(mail==""){
         alert("You have to fill E-mail field!!!!!!")
         done=false;
     }
@@ -52,7 +53,7 @@ function FormValidation(form){
 
     if(done){
         var dataAr=[nam,mail,subject,comment,true]
-        sessionStorage.setItem("data", JSON.stringify(dataAr))
+        sessionStorage.setItem("dataAr", JSON.stringify(dataAr))
 
         window.location.href= "QueryView.html"
     }

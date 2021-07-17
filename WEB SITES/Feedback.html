@@ -38,7 +38,7 @@
 
                 <label for="subject">Subject</label><label class="required">*</label><br>
                 <select name="subject" id="subject">
-                    <option selected disabled>Select Your Option</option>
+                    <option selected disabled value>Select Your Option</option>
                     <option value="Delivary">Delivary</option>
                     <option value="Complane">Complane</option>
                     <option value="Insurance">Insurance</option>
@@ -47,7 +47,7 @@
                 <label for="comment">Your Question</label><label class="required">*</label><br>
                 <textarea name="comment" id="comment" cols="100" rows="10" placeholder="Type you question here....."></textarea><br><br>
 
-                <button type="button" name="viewquery" id="query" class="btn">View Query</button>
+                <button type="button" name="viewquery" id="query" class="btn" onclick="FormValidation(form)">View Query</button>
 
 
 
