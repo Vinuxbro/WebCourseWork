@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gallery</title>
 	<link rel="stylesheet" type="text/css" href="../CSS/gallery.css">
-	<link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
-	<script src="../JAVA SCRIPT/gallary.js"></script>	
+	<link rel="stylesheet" type="text/css" href="../CSS/navbar2.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="../JAVA SCRIPT/gallary.js"></script>
+	
+
 </head>
 <body>
 	
@@ -63,7 +66,7 @@
 			</div>
 
 			<div id="right">
-				<label id="Color">Select Background Colour</label>
+				<label id="Color">Select Font Colour</label>
 				<select id="FontColor" onclick="ChangeTxColor()">
 					<option value="#000000">Default Font Colour</option>
 					<option value="#ffffff">White</option>
@@ -76,19 +79,79 @@
 				</select>
 			</div>
 		</div>
+		
 		<div id="GalleryDes">
+		<div class="row1">
+		<div class="column1">
+			
+			<div class="w3-container">
+	</div>
+
+<div class="w3-content" style="max-width:600px">
+  <img class="mySlides1" src="../IMAGES/web17.jpg" style="width:100%">
+  <img class="mySlides1" src="../IMAGES/web18.jpg" style="width:100%">
+  <img class="mySlides1" src="../IMAGES/web16.jpg" style="width:100%">
+</div>
+
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+  <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+</div>
+<script src="../JAVA SCRIPT/slideshow2.js"></script>
+		</div>
+		<div class="column1">
+			<br><br><br><br><br><br><br><br><br>
 			<p class="intro">Sri Lanka is an amazing travel destination offering a wide range of places to visit. This island, located in the Indian Ocean off the coast of India, presents visitors with an incredible array of environments to enjoy and experience.</p>
-
+			<br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</div>
+		
+		<div class="column1">
+			<br><br><br><br><br><br><br><br><br>
 			<p class="intro">Travelers can trace the island's fascinating history, from ancient times through the colonial period to the present, in cities like Colombo and Kandy. This relatively compact island boasts eight UNESCO World Heritage Sites where that history is preserved.</p>
-
+			<br><br><br><br><br><br><br><br><br><br><br><br><br>
+			
+		</div>
+		<div class="column1">
+			
+               
+				<img class="mySlides" src="../IMAGES/web54.jpeg" style="width:100%">
+				<img class="mySlides" src="../IMAGES/web55.jpg" style="width:100%">
+				<img class="mySlides" src="../IMAGES/yala5.jpg" style="width:100%">
+				<img class="mySlides" src="../IMAGES/web47.jpg" style="width:100%">
+				<img class="mySlides" src="../IMAGES/web57.jpg" style="width:100%">
+				<img class="mySlides" src="../IMAGES/web16.jpg" style="width:100%">
+				<img class="mySlides" src="../IMAGES/web17.jpg" style="width:100%">
+				<img class="mySlides" src="../IMAGES/web56.jpg" style="width:100%">
+				<!adding java script to the above 4 images>
+				<script src="../JAVA SCRIPT/gallary.js"></script>	
+				
+			<br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+		</div>
+		<div class="column1">
+                 <img src="../IMAGES/srilanka1.jpg" width="100%">
+		
+		</div>
+		</div>
+		
+		<div class="column1">
 			<p class="intro">Incredible outdoor landscapes and safari experiences can be found in the country's large elephant-filled national parks, like Yala and Udawalawe. Sri Lanka is also a beach-lover's paradise, ringed by some of the world's most beautiful beaches.</p>
 
 			<p class="intro">When planning a Sri Lankan adventure, keep in mind that the country experiences its rainy season from May through August, making December through April usually the best time to visit. The shoulder season, September, October, and November, is a good time to visit as well.</p>
 
 			<p class="intro">Plan your travel locations in Sri Lanka by exploring our Gallery.</p>
-		
+			<br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</div>
-		<div class="row1">
+		</div>
+		</form>
+		
+				
+		<div class="row">
 			<div id="gallary" class="column">
 				<img src="../IMAGES/sigiriya.jpg" onmouseover="Display1(this);" onmouseout="remove();">
 				
@@ -105,25 +168,20 @@
 				<img src="../IMAGES/kandy.jpg" onmouseover="Display4(this);" onmouseout="remove();">
 				
 			</div>
+			</div>
 			
 			<div class="column">
 				<img src="../IMAGES/pollonaruwa.jpg" onmouseover="Display5(this);" onmouseout="remove();">
 				
 			</div>
-			<div class="column">
-				<img src="../IMAGES/udawalawa.jpg" onmouseover="Display6(this);" onmouseout="remove();">
-				
-			</div>
+			
 			
 			<div class="column">
-				<img src="../IMAGES/hikkaduwa.jpg" onmouseover="Display7(this);" onmouseout="remove();">
+				<img src="../IMAGES/hikkaduwa.jpg" onmouseover="Display6(this);" onmouseout="remove();">
 				
 			</div>
-			<div class="column">
-				<img src="../IMAGES/Bundala.jpg" onmouseover="Display8(this);" onmouseout="remove();">
-				
-			</div>
-		</div>
+
+		
 
 		<div class="row2">
 			<div class="Images">
@@ -134,7 +192,8 @@
 			<div id="Content">
 				<!--View content of suitable image-->
 			</div>
-		<div>	
-	</form>
+		</div>	
+	
+	
 </body>
 </html> 
