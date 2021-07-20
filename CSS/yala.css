@@ -1,0 +1,159 @@
+body {
+  background-color:#34495E;
+  margin: 0;
+  font-family: Arial;
+  }
+#bgvideoAlign{
+    padding-bottom: 30px;
+}
+
+#videoAlign{
+height:80vh;
+width:100%;
+display:flex;
+align-items:center;
+justify-content: center;
+}
+
+#videoAlign::after {
+      width:100%;
+      height:85%;
+      content: '';
+      position:absolute;
+      z-index:-1;
+      top:500;
+      left:0;
+      background:rgba(0,0,0,0.5)
+	}
+
+#videoAlign video {
+      width:100%;
+      height:85%;
+      position:absolute;
+      top:500;
+      left:0;
+      z-index:-1;
+      object-fit:cover;
+      font-family:'object-fit: cover';
+}
+
+#videoAlign .caption {
+      position:relative;
+      z-index:-1;
+      text-align:center;
+      color:#ffffff;
+}
+#videoH1{
+    font-family: "Brush Script MT";
+    font-size: 60px;
+}
+#videoH2{
+    font-family:"Comic Sans MS";
+    color: greenyellow;
+    font-size: 30px;
+}
+
+#selection{
+    margin:0;
+    padding-bottom: 69px;
+}
+
+.ACbutton{
+    width: 50%;
+background-image: linear-gradient(to bottom right, white,grey);
+  border: none;
+  color: darkslategray;
+    font-weight: bolder;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
+
+#welcome{
+    text-align: center;
+    font-size: 60px;
+    color: antiquewhite;
+}
+
+/*Yala Description*/
+
+#WelcomeContent{
+    padding: 10px;
+}
+
+.Description,ul{
+    color: beige;
+    text-align: justify;
+    font-size: 22px;
+}
+
+ul li{
+    padding-bottom: 20px;
+}
+#WelcomeDescription{
+float: left;
+width: 50%;
+}
+
+#mainImages{
+float: right;
+width: 40%;
+    padding: 20px;
+}
+
+#WelcomeContent:after{
+content: "";
+display: table;
+clear: both;
+}
+
+.subTopic{
+    color: aquamarine;
+}
+
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+@media screen and (max-width:900px){
+	.column{
+	width:50%;}}
+  
+@media screen and (max-width:600px){
+	.column{
+	width:100%;}}
+	
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  height:200px;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
