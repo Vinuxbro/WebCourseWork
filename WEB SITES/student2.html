@@ -2,68 +2,155 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=im, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/student1.css">
-    <title>Deverloper2</title>
+    <title>Developer page</title>
+    <link rel="icon" href="../Images/travel-sri-lanka-click-travel-mate-hiking-tourism-travel-agent-zUpQxg4i.png" type="image/x-icon">
+    <style>
+        body {
+          background-image: url("../Images/photo-1587620962725-abab7fe55159.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          margin-top: 30px;
+          margin-left: 30px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            background-color: azure;
+            padding: 10px;
+        }
+
+        .title {
+            color:black;
+            font-size: 18px;
+        }
+
+        
+        /* Top Part of the Developer Page. */
+        #Header{
+            padding-bottom: 100px;
+        }
+        #developerName{
+            padding-left: 40px;
+            padding-bottom: 10px;
+            float:left;
+            background: rgba(0, 0, 0, 0.7);
+            width:95%;
+            text-align: center;
+        }
+        
+        #Name{
+            font-family: "Forte";
+            font-size: 80px;
+            margin: 0;
+            color: #ff860d;
+        }
+        #developer{
+            font-family:Verdana, Tahoma, sans-serif;
+            font-size: 50px;
+            margin: 0px;
+            padding-left: 30px;
+            color: antiquewhite;
+        }
+       
+        
+        /* Content of the Developer Page. */
+        #tasks{
+            float:left;
+            width:90%;
+            background: rgba(0, 0, 0, 0.8);
+            padding:30px;
+            height: 90%;
+        }
+        
+        p,th,td{
+            color: aliceblue;
+            font-size: 18px;
+        }
+        th,td{
+            padding: 26px;
+        }
+
+        table,th,td{
+            border: 1px solid white;
+        }
+        a{
+            color:deepskyblue;
+        }
+        .c1{
+            width: 150px;
+            cursor: pointer;
+        }
+        .c2{
+            width: 650px;
+            text-align: justify;
+        }
+        .c3{
+            color:sandybrown;
+        }
+        .bgtbl{
+            border: none;
+        }
+
+        #iit, h3{
+            color: black;
+        }
+       
+        
+    
+    </style>
 </head>
 <body>
-    <div class="head">
-        <h1>Developer 2</h1>
-        
-    </div><br><br><br><br>
-
-    <div class="image">
-        <img src="../IMAGES/developer2.jpeg" alt="developer 2">
-
+    <div id="Header">
+        <div id="developerName">
+            <p id="developer">Student 2</p>
+        </div>
     </div>
-
-    <div class="stdtails">
-        <pre style="font-family: algerian">
-
-
-    Name   : Vinuka Wimalananda
-
-    UoW ID : W1839513
-
-    IIT ID : 20200991
-        </pre>
-    </div><br><br><br>
-    <center>
-    <table border="1">
-        <th>Task</th>
-        <th>Description</th>
-        <th>Status</th>
-        <tr>
-            <td>Main Page</td>
-            <td>Your Main page should be designed so that the user can access several parts of the site.<br>The links on your main page should look like buttons and have a hover effect. This should be created using CSS</td>
-            <td>Completed</td>
-
-        </tr>
-        <tr>
-            <td>Query Form</td>
-            <td>Your site should contain a form to send a query related to your web site content</td>
-            <td>Completed</td>
-        </tr>
-        <tr>
-            <td>External CSS (Created)</td>
-            <td>External CSS for navigation bar </td>
-            <td>Completed</td>
-
-        </tr>
-
-        <tr>
-            <td>External CSS (re-used)</td>
-            <td>Extenal css re-used for main page and query form page navigation bar</td>
-            <td>Completed</td>
-        </tr>
-
-        <tr>
-            <td>Page Editor</td>
-            <td>Developer page created</td>
-            <td>Completed</td>
-        </tr>
-    </table>
-</center>
+    <div id="Content">
+        <table class="bgtbl">
+        <td><div class="card">
+            <img src="../Images/developer2.jpeg" alt="Vinuka" style="width:100%">
+            <h3>Vinuka Wimalananda</h3>
+            <p class="title">UOW : w1839513</p>
+            <p id="iit">IIT : 20200991</p>  
+        </div></td>
+        <td><div id="tasks">
+            <table>
+                <tr>
+                    <th class="c1">Task</th>
+                    <th class="c2">Description</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td class="c1"><a href="../WEB SITES/mainpage.html">Main Page</a></td>
+                    <td class="c2">Your Main page should be designed so that the user can access several parts of the site.<br>The links on your main page should look like buttons and have a hover effect. This should be created using CSS</td>
+                    <td class="c3">Completed</td>
+                </tr>
+                <tr>
+                    <td class="c1"><a href="../WEB SITES/Feedback.html">Query Form</a></td>
+                    <td class="c2">Your site should contain a form to send a query related to your web site content</td>
+                    <td class="c3">Completed</td>
+                </tr><tr>
+                    <td class="c1"><a href="../WEB SITES/student2.html">Developer page</a></td>
+                    <td class="c2">Creat a page editor page and link to all pages.</td>
+                    <td class="c3">Completed</td>
+                </tr><tr>
+                    <td class="c1">Developer pageExternal CSS (Created)</td>
+                    <td class="c2">External CSS for navigation bar</td>
+                    <td class="c3">Completed</td>
+                </tr>
+            </table>
+        </div></td>
+        </table>
+        
+        
+        
+    
+    </div>
+    
 </body>
 </html>
