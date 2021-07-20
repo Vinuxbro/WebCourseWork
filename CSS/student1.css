@@ -1,0 +1,52 @@
+body{
+    background-image: url("../IMAGES/photo-1587620962725-abab7fe55159.jpg");
+    background-repeat: no-repeat;
+    background-size: 1370px 750px;
+    background-attachment: fixed;
+}
+
+.head{
+    font-family: "Bahnschrift";
+    text-align: center;
+    font-size: 25px;
+    padding: 22px;
+    color: white;
+    background-color: black;
+    opacity: 0.83;
+    height: 100px;
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    
+}
+
+.image img{
+    height: 500px;
+    width: 500px;
+    margin-left: 420px;
+}
+
+.stdtails{
+    
+    font-family: "Algerian";
+    font-size: 25px;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 0.83;
+    height: 320px;
+    width: 460px;
+    margin-top: 80px;
+    margin-left: 420px;
+    margin-right: auto;
+    bottom: 100px;
+    
+
+}
+
+table{
+    color: aliceblue;
+    background-color: black;
+    opacity: 0.8;
+}
